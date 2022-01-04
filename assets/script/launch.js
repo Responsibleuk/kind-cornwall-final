@@ -44,7 +44,7 @@ const months = [
   month = months[month];
   const weekday = weekdays[futureDate.getDay()];
   const date = futureDate.getDate();
-  giveaway.textContent = `Kind Cornwall Launches ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
+  giveaway.textContent = `Launches ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
   
   const futureTime = futureDate.getTime();
   function getRemaindingTime() {

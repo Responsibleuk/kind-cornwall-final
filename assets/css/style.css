@@ -198,7 +198,7 @@ Hero Image
 }
 
 #hero-image-text {
-  width: 40rem;
+  width: 46rem;
   padding-top: 5rem;
   padding-bottom: 2rem;
   padding-left: 15rem;
@@ -425,8 +425,8 @@ Countdown Timer
   background: var(--clr-grey-1);
   color: var(--clr-white);
   margin-right: 1rem;
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   display: grid;
   place-items: center;
   text-align: center;
