@@ -244,7 +244,7 @@ Nav Bar
 */
 
 nav {
-  background-image: linear-gradient( to right,yellow, white);
+  background: var(--clr-white);
   box-shadow: var(--light-shadow);
 }
 
@@ -486,7 +486,7 @@ Studio accordian
 .accordion {
   list-style: none;
   max-width: 550px;
-  width: 100%;
+  width: 10%;
 }
 
 .accordion-item {
