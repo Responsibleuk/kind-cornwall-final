@@ -152,6 +152,45 @@ p {
   }
 }
 
+/* section */
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 2rem auto;
+  max-width: 1170px;
+}
+
+/*
+=============== 
+Buttons
+===============
+*/
+
+.btn {
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--clr-black);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+}
+
+.btn:hover {
+  color: var(--clr-white);
+  background: var(--clr-black);
+}
+
+
+
 
 
 /*
@@ -342,6 +381,51 @@ Countdown Timer
   margin-bottom: 0.25rem;
   letter-spacing: var(--spacing);
 }
+
+
+/* 
+==============
+Modal section
+==============
+*/
+
+.flex-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-item {
+  padding: 1rem;
+  margin: 1rem;
+  width: 20rem;
+  flex: 50%;
+  background-color: #fff;
+  box-shadow: var(--light-shadow);
+
+}
+
+.flex-item p {
+  padding-top: 1rem;
+}
+
+.flex-item h4 {
+  padding-top: 1rem;
+  text-transform: uppercase;
+  size-adjust: 150%;
+}
+
+/*
+=============== 
+About us
+===============
+*/
+
+
 
 
 /*
