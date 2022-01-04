@@ -1061,18 +1061,18 @@ font-size: 2rem;
 .choice-container {
 display: flex;
 margin-bottom: 0.8rem;
-width: 50rem;
+width: 35rem;
 height: 10rem;
 border-radius: 4px;
-background: var(--clr-primary-2);
+background: var(--clr-primary-6);
 font-size: 2rem;
 color: white;
-min-width: 50rem;
+min-width: 35rem;
 }
 
 .choice-container:hover {
 cursor: pointer;
-box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+box-shadow: var(--light-shadow);
 transform: scale(1.02);
 transform: transform 100ms;
 }
@@ -1113,20 +1113,20 @@ text-align: center;
 #progressBar {
 width: 80rem;
 height: 3rem;
-border: 0.2rem solid var(--clr-green-dark);
+border: 0.2rem solid var(--clr-primary-6);
 margin-top: 2rem;
 overflow: hidden;
 }
 
 #progressBarFull {
 height: 100%;
-background: var(--clr-green-dark);
+background: var(--clr-primary-6);
 width: 0%;
 }
 
 @media screen and (max-width: 768px) {
 .choice-container {
-    min-width: 40rem;
+    min-width: 20rem;
 }
 }
 
