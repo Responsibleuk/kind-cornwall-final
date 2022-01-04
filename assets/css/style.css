@@ -123,6 +123,15 @@ p {
   width: 61%;
   padding: 1rem;
 }
+
+.center-heading-quiz {
+  margin: auto;
+  width: 60rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -938,11 +947,12 @@ Quiz
 */
 
 .container {
-  width: 100vw;
+  
+  width: 60vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -994,18 +1004,9 @@ Quiz
   transform: none;
 }
 
-#highscore-btn {
-  background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
-}
 
-#highscore-btn:hover {
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5)
-}
 
-.fa-crown {
-  font-size: 2.5rem;
-  margin-left: 1rem;
-}
+
 
 /* End Page CSS */
 .end-form-container {
@@ -1056,6 +1057,7 @@ input::placeholder {
 #question {
 color: var(--clr-primary-1);
 font-size: 2rem;
+width: 50rem;
 }
 
 .choice-container {
@@ -1111,9 +1113,9 @@ text-align: center;
 }
 
 #progressBar {
-width: 80rem;
+width: 50rem;
 height: 3rem;
-border: 0.2rem solid var(--clr-primary-6);
+border: 0.2rem solid var(--clr-primary-8);
 margin-top: 2rem;
 overflow: hidden;
 }
