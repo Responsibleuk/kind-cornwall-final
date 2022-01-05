@@ -149,6 +149,69 @@ One of, if not the biggest reason you'd want to join an entrepreneurship communi
     </article>
   </section>
 
+
+  <div class="container text-center">
+    <h1>Working with Multiple Modals</h1>
+    <div class="margin-lg">
+      <button type="button" class="btn-first-modal btn btn-primary btn-lg" data-toggle="modal" data-target="#first-modal">
+        Launch First Modal
+      </button>
+    </div>
+    <div class="margin-lg">
+      <button type="button" class="btn-second-modal btn btn-primary btn-lg">
+        Launch second Modal
+      </button>
+    </div>
+    <div class="margin-lg">
+      <button type="button" class="btn-toggle-fade btn btn-lg">
+        Toggle Fade
+      </button>
+    </div>
+    
+  
+    <div class="modal" id="first-modal" data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">First Modal</h4>
+          </div>
+          <div class="modal-body">
+            This is the body of my first modal.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-second-modal within-first-modal btn btn-primary">
+              Launch second Modal
+            </button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="modal" id="second-modal" data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-second-modal-close close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Second Modal</h4>
+          </div>
+          <div class="modal-body">
+            This is the body of my second modal.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-second-modal-close btn btn-default">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  
+
   <!-- footer -->
   <footer id="footer-container">
     <section class="emailSignup">
