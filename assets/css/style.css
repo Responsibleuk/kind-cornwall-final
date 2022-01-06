@@ -1171,7 +1171,7 @@ modal
 
 
 
-.pink-modal {
+.community-modal {
    margin: 5% auto 0 auto; 
    padding: 13px;
    max-width: 600px; 
@@ -1179,7 +1179,7 @@ modal
 
 
 /* Modal Header -- Header area */
-.pink-modal-header {
+.community-modal-header {
  height: 100px;
  background-color: #43A047;
  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.50);
@@ -1187,22 +1187,22 @@ modal
  position: relative;
 }
 
-.pink-modal-header-container {
+.community-modal-header-container {
  display: flex;
  flex-wrap: wrap;
 }
 
-.pink-modal-header-grid-33 {
+.community-modal-header-grid-33 {
  width: calc(33.3333%);
  justify-content: center;
  align-self: center;
 }
 
-.pink-modal-header-grid-66 {
+.community-modal-header-grid-66 {
  width: calc(66.6666%);
 }
 
-.modal-header-question {
+.community-header-question {
  font-family: title-font;
  font-weight: bold-font-weight;
  letter-spacing: 0.8px;	
@@ -1255,9 +1255,7 @@ modal
  letter-spacing: 0.8px;
 }
 
-
-/* Pink Modal Body Area */
-.pink-modal-body {
+.community-modal-body {
  background: wheat;
  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.50);
  height: auto;
