@@ -75,12 +75,24 @@
   </header>
 
   <section id="hero-image">
-    <article id="hero-image-text" >
+
+    <!-- scroll down -->
+    <a onclick="scrollWin()" class="scroll-item-down"></a>
+
+    <!-- script -->
+    <script>
+      function scrollWin() {
+        window.scrollBy(0, 800);
+      }
+    </script>
+
+    
+    <article id="hero-image-text">
       <h1>
         Kind Cornwall
       </h1>
       <h2 class="date">
-         The community for Cornish Lifestyle Businesses.
+        The community for Cornish Lifestyle Businesses.
       </h2>
       <p>
         Meet like-minded and diverse people tackling the
@@ -120,18 +132,13 @@
 
       </div>
     </article>
-    <button onclick="scrollWin()" style="position:fixed">Scroll 100px horizontally!</button>
-<br><br>
-<script>
-function scrollWin() {
-  window.scrollBy(100, 0);
-}
-</script>
+   
+
   </section>
 
-  
 
-  
+
+
 
   <!-- About us -->
   <section class="section-center">
@@ -175,7 +182,7 @@ function scrollWin() {
 
   <script src="assets/script/nav.js"></script>
   <script src="assets/script/launch.js"></script>
-  
+
 
 </body>
 

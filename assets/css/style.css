@@ -208,6 +208,31 @@ Hero Image
   padding-bottom: 2rem;
 }
 
+
+
+/*  */
+
+.scroll-item-down {
+  float: right;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 2rem;
+  background-color: lightgrey;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+  position: fixed;
+}
+
+.scroll-item-up {
+  float: right;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  padding: 2rem;
+  background-color: burlywood;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+  position: fixed;
+}
 /*
 =============== 
 Buttons
